@@ -31,8 +31,68 @@ let someNumber = "44"
 
 let StringNumber = String(someNumber)
 
-console.log(typeof StringNumber);
-console.log(StringNumber);
+//console.log(typeof StringNumber);
+//console.log(StringNumber);
+
+//***************************Operations********************************//
+
+let value = 3 
+let Negvalue = -value
+//console.log(Negvalue);
+
+// console.log(3+3)
+//console.log(3-3);
+//console.log(2*3);
+//console.log(2**2);
+//console.log(2/2);
+//console.log(2%3);
+
+let str1 = "hello"
+let str2 = " rehan"
+
+let str3 = str1 + str2
+//console.log(str3);
+
+//console.log("1" + 2);
+//console.log(1 + "2");
+//console.log("1" + 2 + 2);
+//console.log(2 + 2 + "1");
+
+//console.log((2+2) * 3 % 4); mess code not a good way
+
+//console.log(+true);
+//console.log(+"");
+//console.log(+null);
+
+let num1, num2, num3
+//num1 = num2 = num3 = 2+2  high readability not a good idea by doing like this mess code
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+// for example
+let x = 3
+let y = x++
+console.log(y);
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
