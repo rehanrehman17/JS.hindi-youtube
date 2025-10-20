@@ -38,3 +38,29 @@ const MyFunction = function(params) {
 }
 
 console.log(typeof id);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack and Heap memory
+
+//   stack (premitive)          Heap (non-premitive)
+// stack k undr jb bhi ap kuch bh lety hain tw apko uska copy he milta hai jissy humm 
+
+let myYoutubename = "rehanrehman.com"
+let anothername = myYoutubename
+anothername = "chaiandcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "rehan@email.com",
+    password : 123456
+}
+
+let userTwo = userOne
+userTwo.email = "rehanrehman@email.com"
+
+console.log(userOne);
+console.log(userTwo);
+
