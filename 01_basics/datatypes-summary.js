@@ -44,7 +44,7 @@ console.log(typeof id);
 // stack and Heap memory
 
 //   stack (premitive)          Heap (non-premitive)
-// stack k undr jb bhi ap kuch bh lety hain tw apko uska copy he milta hai jissy humm 
+// stack k undr jb bhi ap kuch bh lety hain tw apko uska copy he milta hai
 
 let myYoutubename = "rehanrehman.com"
 let anothername = myYoutubename
