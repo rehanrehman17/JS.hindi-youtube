@@ -52,10 +52,37 @@ const users = [
 ]
 
 //console.log(users[1].email);
-console.log(tinderUser);
+//console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(tinderUser.hasOwnProperty('id1')); // it return the property exist or not in the object 
-console.log(tinderUser.isPrototypeOf("id"));
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser));
+//console.log(tinderUser.hasOwnProperty('id1')); // it return the property exist or not in the object 
+//console.log(tinderUser.isPrototypeOf("id"));
 
+// object de-structure
+
+const course = {
+    price : 1000,
+    courseinstructor : "rehan",
+    coursename : "js.hindi"
+}
+
+//course.courseinstructor
+
+const {courseinstructor : instructor} = course // object ko de-structure krty hain aise " courseins:ins"
+//console.log(courseinstructor);
+console.log(instructor);
+
+// json 
+
+//{
+//    "coursename": "js.hindi",
+//  "price": "free",
+//    "instructor": "rehan"
+//}
+
+//[
+//    {}
+//    {}
+//    {}
+//]
